@@ -5,7 +5,7 @@ $salir = false;
 while(!$salir){
     $num = rand(1,500);
     echo "$num <br>";
-    //s$salir = ($num%7 ==0 );
+    $salir = ($num%7 ==0 );
     //if ($num % 7 == 0){
     //    $salir = true;
     //}
